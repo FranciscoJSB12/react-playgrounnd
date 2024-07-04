@@ -6,9 +6,9 @@ export interface Todo {
   done: boolean;
 }
 
-type State = Todo[];
+export type State = Todo[];
 
-type Action = 
+export type Action = 
     | { type: Actions.AddTodo, payload: Pick<Todo, 'description'> }
     | { type: Actions.DeleteTodo, payload: Pick<Todo, 'id'>}
     | { type: Actions.ToggleTodo, payload: Pick<Todo, 'id'> }
