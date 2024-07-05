@@ -10,7 +10,7 @@ export const LoginPage = () => {
     <>
       <h1>LoginPage{activeUser && <span>&nbsp;{'-'}&nbsp;Logged In!</span>}</h1>
       <hr />
-      <pre>{JSON.stringify(activeUser, null, 3)}</pre>
+      <pre aria-label='pre'>{JSON.stringify(activeUser, null, 3)}</pre>
       <button
         className='btn btn-primary'
         onClick={() => logUserIn(user)}
