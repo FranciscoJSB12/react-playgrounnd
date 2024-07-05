@@ -10,7 +10,7 @@ export const TodoApp = () => {
     <>
       <h1>
         Tareas: {total}&nbsp;&nbsp;&nbsp;
-        <small>Pendiente: {completed}</small>
+        <small>Completado: {completed}</small>
       </h1>
       <hr />
       <div className='row'>
