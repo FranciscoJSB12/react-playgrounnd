@@ -26,6 +26,7 @@ export const TodoItem = ({
         {description}
       </span>
       <button
+        aria-label='btn'
         className='btn btn-danger'
         onClick={() => deleteTodo(id)}
       >
