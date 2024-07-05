@@ -1,7 +1,7 @@
+import { ChangeEvent } from 'react';
 import { act, renderHook } from '@testing-library/react';
 import { test, expect, describe } from 'vitest';
 import { useForm } from '../../src/hooks';
-import { ChangeEvent } from 'react';
 
 describe('useForm test', () => {
     const initialForm = {
